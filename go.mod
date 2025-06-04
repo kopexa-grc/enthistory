@@ -1,4 +1,4 @@
-module github.com/flume/enthistory
+module github.com/kopexa-grc/enthistory
 
 go 1.24.2
 

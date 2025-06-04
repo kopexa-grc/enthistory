@@ -1,5 +1,7 @@
 # enthistory
 
+This repository is a fork of [enthistory](https://github.com/flume/enthistory), specifically adapted for use within Kopexa.
+
 enthistory is a powerful extension for generating history tables using ent.
 
 ## Installation
@@ -7,7 +9,7 @@ enthistory is a powerful extension for generating history tables using ent.
 You can install enthistory by running the following command:
 
 ```shell
-go get github.com/flume/enthistory@latest
+go get github.com/kopexa-grc/enthistory@latest
 ```
 
 In addition to installing enthistory, you need to create two files in your `ent` directory: `entc.go` and `generate.go`.
@@ -27,7 +29,7 @@ import (
 
 	"entgo.io/ent/entc/gen"
 
-	"github.com/flume/enthistory"
+	"github.com/kopexa-grc/enthistory"
 
 	"entgo.io/ent/entc"
 )

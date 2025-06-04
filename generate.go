@@ -20,7 +20,7 @@ import (
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/field"
 
-	"github.com/flume/enthistory/internal/schemast"
+	"github.com/kopexa-grc/enthistory/internal/schemast"
 
 	"entgo.io/contrib/entgql"
 
