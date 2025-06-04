@@ -1,4 +1,4 @@
-GO_TEST = go run -modfile ./tools/go.mod gotest.tools/gotestsum --format pkgname
+GO_TEST = go tool gotest.tools/gotestsum --format pkgname
 
 #   🔨 TOOLS       #
 ##@ Tools
